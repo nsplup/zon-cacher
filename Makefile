@@ -3,4 +3,4 @@ BINARY_NAME=zon-cacher
 .PHONY: build
 
 build:
-	go build -o $(BINARY_NAME) .
+	go build -trimpath -o $(BINARY_NAME) .
